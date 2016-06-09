@@ -217,7 +217,7 @@ module ActiveRecord
         end
       end
 
-      ADAPTER_NAME = 'Redshift'
+      ADAPTER_NAME = 'redshift3'
 
       NATIVE_DATABASE_TYPES = {
         :primary_key => "serial primary key",
