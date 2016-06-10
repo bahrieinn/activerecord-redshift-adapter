@@ -217,7 +217,7 @@ module ActiveRecord
         end
       end
 
-      ADAPTER_NAME = 'redshift3'
+      ADAPTER_NAME = 'Redshift3'.freeze
 
       NATIVE_DATABASE_TYPES = {
         :primary_key => "serial primary key",
